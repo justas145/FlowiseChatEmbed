@@ -50,8 +50,8 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
-      <a
+      Visionplatform client support
+      {/* <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -61,7 +61,7 @@ export const Badge = (props: Props) => {
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
         <span> Flowise</span>
-      </a>
+      </a> */}
     </span>
   );
 };
